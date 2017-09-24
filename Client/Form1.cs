@@ -87,6 +87,8 @@ namespace Client
                 txtMsgs.Enabled = true;
                 txtSend.Enabled = true;
                 btnSend.Enabled = true;
+                txtUserName.Enabled = false;
+                btnLogin.Enabled = false;
 
                 myName = txtUserName.Text.Trim();
 
@@ -98,6 +100,8 @@ namespace Client
             }
             else
             {
+                txtUserName.Enabled = true;
+                btnLogin.Enabled = true;
                 txtMsgs.Enabled = false;
                 txtSend.Enabled = false;
                 btnSend.Enabled = false;

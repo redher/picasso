@@ -128,7 +128,7 @@
     <Folder Include="Library\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PicassoComponents\Components.csproj">
+    <ProjectReference Include="..\Components\Components.csproj">
       <Project>{51c35b09-1d99-465c-b43b-2710620784c7}</Project>
       <Name>Components</Name>
     </ProjectReference>
